@@ -82,8 +82,12 @@ a {
 .welcome-message {
   font-style: italic;
   font-size: 18px;
-  color: #F3F3F3;
+  color: #EC0E0B;
   line-height: 28px;
+}
+
+#skills {
+  flex-direction: column;
 }
 
 #skillsH3 {
@@ -148,6 +152,10 @@ ul {
 
 img {
   padding: 10px;
+}
+
+.project-entry img {
+  height: 180px;
 }
 
 /* Bar chart stuff */
